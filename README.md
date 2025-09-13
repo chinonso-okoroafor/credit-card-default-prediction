@@ -1,8 +1,7 @@
 
 ---
 
-# 💳 Credit Card Default Prediction — Machine Learning for Financial Risk Mitigation  
-> *Building & Comparing ML Models to Predict High-Risk Borrowers — With Surprising Insights on Gender, Education, and Model Performance*
+# Credit Card Default Prediction — Machine Learning for Financial Risk Mitigation  
 
 ![Python](https://img.shields.io/badge/Python-Scikit--learn%20+%20Pandas-blue?logo=python)  
 ![ML](https://img.shields.io/badge/Machine%20Learning-Decision%20Tree%20+%20Random%20Forest-orange)  
@@ -11,19 +10,19 @@
 ![Dataset](https://img.shields.io/badge/Dataset-Kaggle%20(3K%20rows%2C%2025%20features)-purple)  
 ![Insight](https://img.shields.io/badge/Key%20Insight-60.37%25%20of%20defaulters%20are%20female-lightgrey)
 
-## 📊 Key Insights & Business Implications
+## Key Insights & Business Implications
 
-### 1. 🎯 Model Performance: Decision Tree Wins
+### 1. Model Performance: Decision Tree Wins
 | Model          | Accuracy | Why Chosen                                      | Business Value                          |
 |----------------|----------|-------------------------------------------------|-----------------------------------------|
 | **Decision Tree** | **82.01%** | Higher accuracy + full interpretability       | Explainable AI for regulators & auditors |
 | Random Forest  | 81.50%   | Ensemble robustness — but less transparent     | Good for low-stakes, high-volume use    |
 
-> 📌 **Risk Manager’s Takeaway**: “Use Decision Tree for high-risk portfolios where model transparency is required. Use Random Forest for batch scoring of low-risk applicants.”
+> **Risk Manager’s Takeaway**: “Use Decision Tree for high-risk portfolios where model transparency is required. Use Random Forest for batch scoring of low-risk applicants.”
 
 ---
 
-### 2. 👩‍🎓 Counterintuitive Risk Factors: Education ≠ Safety
+### 2. Counterintuitive Risk Factors: Education ≠ Safety
 
 ```plaintext
 Pie Chart of Defaulters by Education:
@@ -33,11 +32,11 @@ Pie Chart of Defaulters by Education:
 - Other: 1.56%
 ```
 
-> 📌 **Underwriting Insight**: “Do not assume higher education = lower risk. Our data shows graduate degree holders are the largest default cohort. Re-evaluate scoring weights.”
+> **Underwriting Insight**: “Do not assume higher education = lower risk. Our data shows graduate degree holders are the largest default cohort. Re-evaluate scoring weights.”
 
 ---
 
-### 3. ♀️ Gender Imbalance in Default: 60.37% Female
+### 3. Gender Imbalance in Default: 60.37% Female
 
 ```plaintext
 Pie Chart of Defaulters by Gender:
@@ -45,11 +44,11 @@ Pie Chart of Defaulters by Gender:
 - Male: 39.63%
 ```
 
-> 📌 **Compliance Alert**: “This disparity requires investigation. Is it behavioral (spending patterns)? Structural (income inequality)? Or data bias? Do not use gender as a feature without fairness audits.”
+> **Compliance Alert**: “This disparity requires investigation. Is it behavioral (spending patterns)? Structural (income inequality)? Or data bias? Do not use gender as a feature without fairness audits.”
 
 ---
 
-### 4. 💳 Financial Domain Fluency: You Understand the Product
+### 4. Financial Domain Fluency: You Understand the Product
 
 You didn’t just model — you explained:
 - **What is a credit card?** Borrowed funds, interest, credit score impact.
@@ -57,11 +56,11 @@ You didn’t just model — you explained:
 - **Approval criteria**: FICO score, income, credit history — the real-world inputs to your model.
 - **Credit vs. Debit**: Borrowed money (credit) vs. your money (debit) — critical for risk context.
 
-> 📌 **Product Manager’s Note**: “You can bridge the gap between data science and business stakeholders — a rare and valuable skill.”
+> **Product Manager’s Note**: “You can bridge the gap between data science and business stakeholders — a rare and valuable skill.”
 
 ---
 
-## 🛠️ Technical Stack & Methodologies
+## Technical Stack & Methodologies
 
 | Area                  | Tools & Techniques                                                                 | Business Value                                  |
 |-----------------------|------------------------------------------------------------------------------------|------------------------------------------------|
@@ -74,7 +73,7 @@ You didn’t just model — you explained:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── CreditCard.Poster_10835879.10893087.pdf     # Professional poster (executive summary)
@@ -94,11 +93,11 @@ You didn’t just model — you explained:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/credit-card-default-prediction.git
+   git clone https://github.com/chinonso-okoroafor/credit-card-default-prediction.git
    cd credit-card-default-prediction
    ```
 
@@ -115,9 +114,9 @@ You didn’t just model — you explained:
    python code/model_evaluation.py
    ```
 
-> ⚠️ Dataset sourced from Kaggle (Sandeep Bansode). Pre-cleaned version included.
+> Dataset sourced from Kaggle (Sandeep Bansode). Pre-cleaned version included.
 
-## 📚 References & Tools
+## References & Tools
 
 - **Dataset**: Sandeep Bansode, Kaggle — *Credit Card Default Prediction*  
 - **ML Algorithms**:  
@@ -127,21 +126,3 @@ You didn’t just model — you explained:
   - Altman, E.I. (2013) — *Predicting Financial Distress*  
   - Visa, Mozo, Percival — Credit card definitions & mechanics  
 - **Visualization**: Matplotlib, Seaborn — for pie charts and model comparison tables
-
----
-
-## 🤝 Connect & Collaborate
-
-👤 **Author**: [Your Name]  
-📧 **Email**: [your.email@example.com]  
-💼 **LinkedIn**: [linkedin.com/in/yourprofile]  
-🎓 **Program**: MSc Data Science and Business Analytics, University of Plymouth
-
-> 👉 *Open to roles in: Credit Risk Modeling, Fintech Analytics, Fraud Detection, Banking Data Science, Financial Product Management.*
-
----
-
-✅ **Last Updated**: December 2023  
-✅ **License**: MIT — Use, adapt, learn, and build upon this work!
-
----
